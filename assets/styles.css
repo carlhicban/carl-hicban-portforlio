@@ -1,0 +1,16 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variables */
+:root{
+    --primary-color : #fff;
+    --secondary-color: #817F82;
+    --accent-color : #111344;
+    --primary-font-family : "Roboto Slab", serif;
+    --secondary-font-family : "Roboto Condensed", sans-serif;
+}
+
