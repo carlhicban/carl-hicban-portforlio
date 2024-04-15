@@ -14,3 +14,45 @@
     --secondary-font-family : "Roboto Condensed", sans-serif;
 }
 
+.header-image{
+    height: 25vh;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;  
+}
+
+.header-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile > section:first-child{
+    position: relative;
+    top: -130px;
+}
+
+.profile > section:nth-child(2){
+    padding: 6rem;
+    width: 100%;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 15rem;
+    border: 6px solid var(--primary-color);
+}
