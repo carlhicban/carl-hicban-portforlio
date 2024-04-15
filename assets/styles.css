@@ -56,3 +56,126 @@
     width: 15rem;
     border: 6px solid var(--primary-color);
 }
+
+.socials-icon img{
+    display: inline-block;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.socials-icon:hover{
+    opacity: .3;
+}
+
+.badge{
+    padding: .8rem;
+}
+
+
+/* Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--accent-color);
+    top: 0;
+    bottom: 0;
+    /* left: 4%; */
+    margin-left: -1px;
+}
+
+.sub-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.sub-timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--accent-color);
+    top: 0;
+    bottom: 0;
+    /* left: 4%; */
+    margin-left: -1px;
+}
+
+.event {
+    position: relative;
+    margin: 50px 0;
+}
+
+.event::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+}
+
+.sub-event {
+    position: relative;
+    margin: 20px 0;
+}
+
+.sub-event::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -5px;
+}
+
+.event:last-child::after {
+    display: none;
+}
+
+.event-content {
+    position: relative;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-content h3 {
+    margin-top: 0;
+    color: var(--accent-color);
+}
+
+.event-content p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .timeline::after {
+        left: 20px;
+    }
+
+    .event::after {
+        left: -5px;
+    }
+
+    .event-content {
+        margin-left: 10px;
+        padding: 5px;
+    }
+}
