@@ -35,7 +35,7 @@
                 <h1 class="profile-name">Carl Hicban</h1>
                 <p class="profile-position">Software Developer</p>
 
-                <article>
+                <article class="profile-details">
                     <p>
                         <span class="material-symbols-outlined icon">home</span>
                         <span class="icon-text">Philippines, South Cotabato</span>
@@ -47,10 +47,11 @@
                 </article>
                 <section>
                     <p>
-                        <span class="socials-icon"><img src="../carl-hicban-portforlio/assets/images/linkedin.png"
-                                alt="linkedin"></span>
-                        <span class="socials-icon"><img src="../carl-hicban-portforlio/assets/images/github.png"
-                                alt="github"></span>
+                        <a href="https://www.linkedin.com/in/carl-john-hicban-07635b1a4/" target="_blank"
+                            class="socials-icon"><img src="../carl-hicban-portforlio/assets/images/linkedin.png"
+                                alt="linkedin"></a>
+                        <a href="https://github.com/carlhicban" target="_blank" class="socials-icon"><img
+                                src="../carl-hicban-portforlio/assets/images/github.png" alt="github"></a>
                     </p>
                 </section>
             </section>
@@ -74,7 +75,12 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="background-tab" data-bs-toggle="tab"
                             data-bs-target="#background-tab-pane" type="button" role="tab"
-                            aria-controls="background-tab-pane" aria-selected="false">Background</button>
+                            aria-controls="background-tab-pane" aria-selected="false">Education</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="certificates-tab" data-bs-toggle="tab"
+                            data-bs-target="#certificates-tab-pane" type="button" role="tab"
+                            aria-controls="certificates-tab-pane" aria-selected="false">Certificates</button>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
@@ -140,46 +146,88 @@
                     </div>
                     <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="skills-tab"
                         tabindex="0">
-
-                        <section class="container skills">
-                            <h3>Frontend</h3>
-                            <span class="badge rounded-pill bg-secondary">Angular</span>
-                            <span class="badge rounded-pill bg-secondary">HTML</span>
-                            <span class="badge rounded-pill bg-secondary">CSS</span>
-                            <span class="badge rounded-pill bg-secondary">Javascript</span>
-                            <span class="badge rounded-pill bg-secondary">jQuery</span>
-                            <span class="badge rounded-pill bg-secondary">Bootstrap</span>
-                            <span class="badge rounded-pill bg-secondary">Typescript</span>
-                            <span class="badge rounded-pill bg-secondary">SCSS</span>
-                        </section>
-                        <section class="container skills">
-                            <h3>Backend</h3>
-                            <span class="badge rounded-pill bg-secondary">Firebase</span>
-                            <span class="badge rounded-pill bg-secondary">Nodejs</span>
-                            <span class="badge rounded-pill bg-secondary">PHP</span>
-                            <span class="badge rounded-pill bg-secondary">MongoDb</span>
-                            <span class="badge rounded-pill bg-secondary">MySQL</span>
-                            <span class="badge rounded-pill bg-secondary">GraphQL</span>
-                            <span class="badge rounded-pill bg-secondary">Laravel</span>
-                            <span class="badge rounded-pill bg-secondary">Express.js</span>
-                        </section>
-                        <section class="container skills">
-                            <h3>Tools & Others</h3>
-                            <span class="badge rounded-pill bg-secondary">Github</span>
-                            <span class="badge rounded-pill bg-secondary">Gitlab</span>
-                            <span class="badge rounded-pill bg-secondary">Linux</span>
-                            <span class="badge rounded-pill bg-secondary">Figma</span>
-                            <span class="badge rounded-pill bg-secondary">Trello</span>
-                            <span class="badge rounded-pill bg-secondary">Clickup</span>
-                            <span class="badge rounded-pill bg-secondary">Slack</span>
-                        </section>
+                        <div class="timeline">
+                            <div class="event">
+                                <div class="event-content">
+                                    <h3>Frontend</h3>
+                                    <span class="badge rounded-pill bg-secondary">Angular</span>
+                                    <span class="badge rounded-pill bg-secondary">HTML</span>
+                                    <span class="badge rounded-pill bg-secondary">CSS</span>
+                                    <span class="badge rounded-pill bg-secondary">Javascript</span>
+                                    <span class="badge rounded-pill bg-secondary">jQuery</span>
+                                    <span class="badge rounded-pill bg-secondary">Bootstrap</span>
+                                    <span class="badge rounded-pill bg-secondary">Typescript</span>
+                                    <span class="badge rounded-pill bg-secondary">SCSS</span>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-content">
+                                    <h3>Backend</h3>
+                                    <span class="badge rounded-pill bg-secondary">Firebase</span>
+                                    <span class="badge rounded-pill bg-secondary">Nodejs</span>
+                                    <span class="badge rounded-pill bg-secondary">PHP</span>
+                                    <span class="badge rounded-pill bg-secondary">MongoDb</span>
+                                    <span class="badge rounded-pill bg-secondary">MySQL</span>
+                                    <span class="badge rounded-pill bg-secondary">GraphQL</span>
+                                    <span class="badge rounded-pill bg-secondary">Laravel</span>
+                                    <span class="badge rounded-pill bg-secondary">Express.js</span>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-content">
+                                    <h3>Tools & Others</h3>
+                                    <span class="badge rounded-pill bg-secondary">Github</span>
+                                    <span class="badge rounded-pill bg-secondary">Gitlab</span>
+                                    <span class="badge rounded-pill bg-secondary">Linux</span>
+                                    <span class="badge rounded-pill bg-secondary">Figma</span>
+                                    <span class="badge rounded-pill bg-secondary">Trello</span>
+                                    <span class="badge rounded-pill bg-secondary">Clickup</span>
+                                    <span class="badge rounded-pill bg-secondary">Slack</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="projects-tab-pane" role="tabpanel" aria-labelledby="projects-tab"
                         tabindex="0">
                         projects</div>
                     <div class="tab-pane fade" id="background-tab-pane" role="tabpanel" aria-labelledby="background-tab"
                         tabindex="0">
-                        background</div>
+                        <div class="timeline">
+                            <div class="event">
+                                <div class="event-content">
+                                    <h3>Bachelor of Science of Information Technology</h3>
+                                    <cite>Batch 2010 - 2014</cite>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-content">
+                                    <h3>Bachelor of Science of Electrical Engineering</h3>
+                                    <cite>SY: 2016</cite>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="certificates-tab-pane" role="tabpanel"
+                        aria-labelledby="certificates-tab" tabindex="0">
+                        <div class="timeline">
+                            <div class="event">
+                                <div class="event-content">
+                                    <h3>Angular Development | Zero to Mastery</h3>
+                                    <cite>Instructor : Andrei Neagoie | Luis Ramirez Jr | Zero to Mastery</cite>
+                                    <img class="certificate-image" src="./assets/images/Angular_Carl.PNG"
+                                        alt="Angular Certificate">
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-content">
+                                    <h3>Complete Flutter Development Bootcamp with Dart</h3>
+                                    <cite>Instructor : Dr. Angela Yu</cite>
+                                    <img class="certificate-image" src="./assets/images/flutter_carl.PNG"
+                                        alt="Flutter Certificate">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
