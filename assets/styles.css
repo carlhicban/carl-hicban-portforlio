@@ -103,6 +103,14 @@ body{
     margin: 2rem .5rem 0 .5rem;
 }
 
+.download-cv{
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+    margin-top: 3rem;
+    text-decoration: none !important;
+    font-family: var(--primary-font-family);
+}
+
 .socials-icon:hover{
     opacity: .3;
 }
@@ -111,6 +119,7 @@ body{
     padding: .8rem 1.5rem .8rem 1.5rem;
     font-size: .8rem !important;
     margin-top: 1rem;
+    font-family: var(--secondary-font-family);
 }
 
 .skills{
@@ -214,10 +223,16 @@ body{
 .event-content h3 {
     margin-top: 0;
     color: var(--accent-color);
+    font-family: var(--primary-font-family);
+}
+
+.event-content cite{
+    font-family: var(--secondary-font-family);
 }
 
 .event-content p {
     margin-bottom: 0;
+    font-family: var(--secondary-font-family);
 }
 
 @media (max-width: 600px) {
