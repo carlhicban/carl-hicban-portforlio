@@ -83,6 +83,7 @@ body{
     color: var(--accent-color);
     font-family: var(--primary-font-family);
     font-weight: bold;
+    font-size: 30px;
 }
 
 .profile-position{
